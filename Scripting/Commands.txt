@@ -1,0 +1,59 @@
+ls   : Lista los nombres de los archivos y carpetas en el directorio
+who  : lista el usuario logueados
+date : Fecha
+pwd  : imprime el directoio actual
+df   : informacion de disco
+ifconfig : network interface
+dmesg : mensage de dispositivos
+lspci : dispositivos conectados
+man : imprime documentacion de un comando
+cp source dest: copia archivo
+rm : borra un archivo
+mv : mueve archivos o carpeta a otro destino / Tambien renombra archivos
+mkdir : crea una carpeta
+du : tamaño del directorio
+stat : detalla el estado de un archivo en particular
+rmdir : borra una carpeta
+touch : cambia la fecha de modificacion de un archivo o crea uno nuevo
+cat : concatena un archivo y lo imprime por pantalla 
+tree : muesta el directorio actual de manera mas amigable
+grep, egrep, fgrep : buscan texto en archivos 
+strings: buscan en binarios un texto
+find : busca archivos con el nombre de un patron
+
+-----------------------------------
+/ root directory
+. current directory
+.. parent directory
+
+-----------------------------------
+r : read
+w : write
+x : ejecutar
+
+rwx     rwx       rwx 
+Owner - Group - Others
+
+chmod mode file: Cambia permisos
+"mode" : [ugoa][+-=][rwx]
++ add permisos
+- remueve permisos
+= set permisos
+ 
+
+----------------  ls ---------------
+-l long form 
+-a all
+-A omit "." ".." entries
+-F special char para indicar file types
+-l un archivo por linea
+-R ejecuta el comando de manera recursiva
+
+-------------------------------------
+
+Standard Output : 1 : stdout
+Standard Error : 2 : stderr
+
+>  o < : Determina la entrada o salida de un comando
+>> determina la entrada o salida pero no crea un nuevo archivo , agrega el contenido al final del mismo.
+
