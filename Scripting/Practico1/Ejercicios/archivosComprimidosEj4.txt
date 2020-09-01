@@ -1,0 +1,4 @@
+archivo1.gz
+archivo2.bz2
+archivo3.zip
+archivo4.tar
